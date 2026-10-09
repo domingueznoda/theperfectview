@@ -1,0 +1,6 @@
+{
+  "name": "The Perfect View in Soo - Alquiler de Espacio para Eventos",
+  "description": "Espacio exclusivo para eventos privados, celebraciones y reuniones en Soo, Lanzarote. Terraza lounge con piscina, jardín, cocina exterior y vistas panorámicas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
