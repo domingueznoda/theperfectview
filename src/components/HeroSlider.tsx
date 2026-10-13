@@ -104,7 +104,7 @@ export const HeroSlider: React.FC<HeroSliderProps> = ({
           <div className="flex flex-col items-center justify-center p-2 rounded-xl bg-white/5">
             <span className="text-stone-400 text-[11px] uppercase tracking-wider">Tarifa Base</span>
             <span className="font-semibold text-amber-300 tabular-nums mt-0.5">
-              500 € / 20 pers.
+              400 € / 20 pers.
             </span>
           </div>
           <div className="flex flex-col items-center justify-center p-2 rounded-xl bg-white/5">

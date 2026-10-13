@@ -41,7 +41,7 @@ export const BookingCalendar: React.FC<BookingCalendarProps> = () => {
     const baseGuests = VENUE_INFO.baseGuests; // 20
     const extraGuests = Math.max(0, guests - baseGuests);
     const extraGuestsCost = extraGuests * VENUE_INFO.extraGuestPrice; // extra * 20
-    const totalPrice = VENUE_INFO.basePrice + extraGuestsCost; // 500 + extra
+    const totalPrice = VENUE_INFO.basePrice + extraGuestsCost; // 400 + extra
     return {
       baseGuests,
       extraGuests,
@@ -122,8 +122,8 @@ export const BookingCalendar: React.FC<BookingCalendarProps> = () => {
 
     const breakdownText =
       priceCalculation.extraGuests > 0
-        ? `Base 500 € + ${priceCalculation.extraGuests} invitados extra (x 20 € = ${priceCalculation.extraGuestsCost} €)`
-        : 'Tarifa base de 500 € (hasta 20 personas)';
+        ? `Base ${VENUE_INFO.basePrice} € + ${priceCalculation.extraGuests} invitados extra (x 20 € = ${priceCalculation.extraGuestsCost} €)`
+        : `Tarifa base de ${VENUE_INFO.basePrice} € (hasta 20 personas)`;
 
     const message = [
       `¡Hola! Me gustaría consultar la disponibilidad para reservar The Perfect View in Soo:`,
@@ -162,7 +162,7 @@ export const BookingCalendar: React.FC<BookingCalendarProps> = () => {
             Calcula tu tarifa y reserva tu fecha
           </h2>
           <p className="text-base sm:text-lg text-stone-600 leading-relaxed">
-            Tarifa base de <strong>500 €</strong> para hasta 20 personas y <strong>20 € adicionales</strong> por cada invitado extra (hasta un aforo máximo de 55). Horario de <strong>12:00 a 20:00 h</strong>.
+            Tarifa base de <strong>{VENUE_INFO.basePrice} €</strong> para hasta 20 personas y <strong>20 € adicionales</strong> por cada invitado extra (hasta un aforo máximo de 55). Horario de <strong>12:00 a 20:00 h</strong>.
           </p>
         </div>
 
@@ -320,7 +320,7 @@ export const BookingCalendar: React.FC<BookingCalendarProps> = () => {
                 <div className="space-y-2 text-sm text-stone-600">
                   <div className="flex items-center justify-between">
                     <span>Tarifa base del espacio (hasta 20 personas):</span>
-                    <span className="font-semibold text-stone-900 tabular-nums">500 €</span>
+                    <span className="font-semibold text-stone-900 tabular-nums">{VENUE_INFO.basePrice} €</span>
                   </div>
 
                   {priceCalculation.extraGuests > 0 ? (

@@ -6,7 +6,7 @@ export const VENUE_INFO = {
   phoneFormatted: '+34 637 495 690',
   whatsappNumber: '34637495690',
   hours: '12:00 a 20:00 (8 horas de evento)',
-  basePrice: 500,
+  basePrice: 400,
   baseGuests: 20,
   extraGuestPrice: 20,
   maxGuests: 55,
@@ -88,7 +88,7 @@ export const RULES = [
 export const FAQS = [
   {
     q: '¿Cómo funciona el cálculo del precio?',
-    a: 'El precio base es de 500 € para eventos de hasta 20 personas. Por cada persona adicional (de la 21 a la 55), se suman 20 € por persona. Por ejemplo, 30 personas = 500 € + (10 x 20 €) = 700 €.',
+    a: 'El precio base es de 400 € para eventos de hasta 20 personas. Por cada persona adicional (de la 21 a la 55), se suman 20 € por persona. Por ejemplo, 30 personas = 400 € + (10 x 20 €) = 600 €.',
   },
   {
     q: '¿Qué incluye el alquiler de 12:00 a 20:00?',
