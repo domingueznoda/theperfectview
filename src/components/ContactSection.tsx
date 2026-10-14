@@ -88,7 +88,7 @@ export const ContactSection: React.FC = () => {
                     Ubicación del Espacio
                   </div>
                   <div className="text-base font-bold text-stone-900">
-                    Soo, Tinajo, Lanzarote
+                    Soo, Teguise, Lanzarote
                   </div>
                   <p className="text-sm text-stone-600 mt-1 leading-relaxed">
                     Situado en una zona elevada de Soo con vistas panorámicas a las calderas volcánicas y a los atardeceres sobre el mar. A solo 15 minutos de Famara y 20 minutos de Arrecife.
@@ -126,7 +126,7 @@ export const ContactSection: React.FC = () => {
                 <div className="text-center p-4">
                   <MapPin className="w-7 h-7 text-amber-600 mx-auto mb-1 animate-bounce" />
                   <p className="font-bold text-stone-800">The Perfect View in Soo</p>
-                  <p className="text-stone-500 text-[11px]">35560 Soo, Tinajo, Las Palmas, España</p>
+                  <p className="text-stone-500 text-[11px]">35560 Soo, Teguise, Las Palmas, España</p>
                   <a
                     href="https://maps.google.com/?q=Soo+Lanzarote"
                     target="_blank"

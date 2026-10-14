@@ -1,9 +1,9 @@
 export const VENUE_INFO = {
   name: 'The Perfect View in Soo',
   tagline: 'Terraza Lounge & Espacio Exclusivo para Eventos',
-  location: 'Soo, Tinajo, Lanzarote (Islas Canarias)',
-  phone: '637495690',
-  phoneFormatted: '+34 637 495 690',
+  location: 'Soo, Teguise, Lanzarote (Islas Canarias)',
+  phone: '+34637495690',
+  phoneFormatted: '+34 637 49 56 90',
   whatsappNumber: '34637495690',
   hours: '12:00 a 20:00 (8 horas de evento)',
   basePrice: 400,
@@ -104,6 +104,6 @@ export const FAQS = [
   },
   {
     q: '¿Dónde está ubicado exactamente The Perfect View in Soo?',
-    a: 'En el tranquilo pueblo de Soo, perteneciente al municipio de Tinajo en Lanzarote, rodeado de un sobrecogedor paisaje volcánico y atardeceres de postal.',
+    a: 'En el tranquilo pueblo de Soo, perteneciente al municipio de Teguise en Lanzarote, rodeado de un sobrecogedor paisaje volcánico y atardeceres de postal.',
   },
 ];

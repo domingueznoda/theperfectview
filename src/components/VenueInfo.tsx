@@ -44,7 +44,7 @@ export const VenueInfo: React.FC<VenueInfoProps> = ({ onReserveClick }) => {
             Diseñado para celebrar momentos únicos con total privacidad
           </h2>
           <p className="text-base sm:text-lg text-stone-600 font-normal leading-relaxed">
-            The Perfect View in Soo es un enclave exclusivo al aire libre en el pueblo de Soo (Tinajo). Diseñado con la arquitectura blanca tradicional de Lanzarote combinada con detalles contemporáneos, ofrece todas las comodidades para albergar cumpleaños, aniversarios, comidas familiares o eventos de empresa.
+            The Perfect View in Soo es un enclave exclusivo al aire libre en el pueblo de Soo (Teguise). Diseñado con la arquitectura blanca tradicional de Lanzarote combinada con detalles contemporáneos, ofrece todas las comodidades para albergar cumpleaños, aniversarios, comidas familiares o eventos de empresa.
           </p>
         </div>
 

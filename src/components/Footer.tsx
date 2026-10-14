@@ -55,7 +55,7 @@ export const Footer: React.FC = () => {
             © {new Date().getFullYear()} The Perfect View in Soo · Todos los derechos reservados.
           </div>
           <div className="flex items-center gap-4">
-            <span>Soo, Tinajo, Lanzarote</span>
+            <span>Soo, Teguise, Lanzarote</span>
             <span>·</span>
             <span>Tel. {VENUE_INFO.phoneFormatted}</span>
           </div>

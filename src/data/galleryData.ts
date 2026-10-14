@@ -147,7 +147,7 @@ export const INITIAL_GALLERY_ITEMS: GalleryItemData[] = [
   {
     id: 'cartel-promocional',
     title: 'Cartel Informativo del Espacio',
-    subtitle: 'Terraza Lounge para celebraciones · Tel. 637495690',
+    subtitle: 'Terraza Lounge para celebraciones · Tel. +34 637 49 56 90',
     category: 'detalles',
     categoryLabel: 'Identidad & Estilo',
     description: 'Cartel oficial de alquiler de espacio para eventos: ideal para celebraciones, reuniones y eventos privados. Alquiler de 12:00 a 20:00 h.',
